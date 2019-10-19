@@ -1,0 +1,18 @@
+html,
+body{
+	width: 100%;
+	background-color: #fff;
+	font-family: 'Open Sans', 'Roboto', sans-serif;
+	overflow-x: hidden;
+}
+
+.header-top-bar {
+    background: rgba(52,73,94,1);
+    color: #fff;
+    padding: 0;
+    min-height: 0;
+    height: 110px;
+    border: none;
+    position: relative;
+    z-index: 1100;
+}
