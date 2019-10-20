@@ -1,0 +1,126 @@
+html,
+body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+h2, h2 a, .comment-reply-title {
+    font-family: Raleway;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    color: ;
+}
+
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+#zozo_wrapper .header-sticky {
+    position: relative;
+    z-index: 999;
+}
+
+#zozo_wrapper {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background: #eee;
+}
+
+.header-top-bar {
+    background: rgba(52,73,94,1);
+    color: #fff;
+    padding: 0;
+    min-height: 0;
+    height: 110px;
+    border: none;
+    position: relative;
+    z-index: 1100;
+}
+
+.header-top-bar :not(a):not(img) {
+    height: 100%;
+}
+
+
+.navbar-brand {
+    font-size: inherit;
+    height: 100%;
+    line-height: 30px;
+    padding: 0;
+    vertical-align: middle;
+    position: relative;
+}
+
+.zozo-logo .navbar-brand>img {
+    position: relative;
+    height: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+}
+
+.header-top-bar .zozo-top-bar.navbar-collapse.collapse {
+    height: 100%!important;
+}
+
+.logo-left .zozo-top-bar, .logo-left .zozo-top-bar .zozo-top-navbar {
+    float: right;
+}
+
+.zozo-top-navbar>li {
+    position: static;
+}
+
+.navbar-nav.zozo-main-nav>li {
+    height: 100%;
+    vertical-align: middle;
+    padding: 0 5px;
+}
+
+.navbar-nav.zozo-main-nav li a {
+    border: 2px solid transparent;
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -o-border-radius: 50px;
+    -ms-border-radius: 50px;
+    color: #FFF;
+}
+
+.navbar-nav.zozo-main-nav>li>a {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+}
+
+.nav.navbar-nav>li>a {
+    padding: 5px 18px;
+    text-align: center;
+}
+
+.nav.navbar-nav a {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+/* Header */
+.zozo-top-anchor {
+    display: block;
+    position: absolute;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    top: 0;
+}
