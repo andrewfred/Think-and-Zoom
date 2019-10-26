@@ -1,233 +1,298 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Think and Zoom - Hands free visual magnification powered by the human mind</title>
+    <title>Think and Zoom - Hands free vision</title>
 
-	<!--Meta Head-->
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compitable" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- META HEAD -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compitable" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- LINKS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
-	<!--Links-->
-	<link href="css/bootstrap.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-	<link href="font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet">
-
-	<!-- Script -->
+    <!-- Script -->
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/jquery.js"></script>
 
 </head>
 <body>
 
-	<!-- Main-Navabr -->
-	<div class="pageloader" style="display: none;"></div>
-	<div id="zozo_wrapper class="wrapper-class">	
-		<div id="header-sticky-wrapper" class="header-sticky" style="height: 110px">
-			<div id="header-top" class="header-top-bar">
-				<div class="container">
-					<div class="navbar-header zozo-logo"
-						<a class="navbar-brand" href="" title="Hands free visual magnification powered by the human mind">
-							<img src="img/logo1.png" alt="Think and Zoom" class="logo" class="img-responsive" style="width: 200px; margin-top: 16px;">
-						</a>
-						<div class="navbar-header nav-respons">
-							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-								<span class="sr-only">Toggle navigation</span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-							</button>
-						</div>
-					</div>
-					<nav class="navbar-collapse zozo-topnavbar-collapse collapse zozo-top-bar" role="navigation">
-						<ul class="nav navbar-nav zozo-top-navbar">
-							<li class="header-top-left">
-								<div class="hidden-xs">
-									<div id="main-nav-container" class="main-nav menu-container main-megamenu">
-										<ul id="main-menu" class="nav navbar-nav navbar-main zozo-main-nav">
-											<li id="menu-item-364" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-364">
-												<a href="#" data-target="#section-home-parallax-slider">Home</a>
-											</li>
-											<li id="menu-item-363" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-363">
-												<a href="#" data-target="#section-about-us">Demo</a>
-											</li>
-											<li id="menu-item-503" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-503">
-												<a href="#" data-target="#section-download">Download</a>
-											</li>
-											<li id="menu-item-517" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-517">
-												<a href="#" data-target="#section-games">Game</a>
-											</li>
-											<li id="menu-item-547" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-547">
-												<a href="#" data-target="#section-game-demo">Game Demo</a>
-											</li>
-											<li id="menu-item-362" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-362">
-												<a href="#" data-target="#section-services">Feedback</a>
-											</li>
-											<li id="menu-item-564" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-564">
-												<a href="#" data-target="#section-founder">Founder</a>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</li>
-						</ul>
-					</nav>
-				</div>
-			</div>
-		</div>
-	</div>
-			
+    <!-- MAIN NAVBAR -->
+    <nav class="navbar navbar-default navbar-fixed-top" id="home">
+        <div class="container navbar-container">
+            <div class="row">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle Navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img src="img/logo1.png" class="logo"</a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right kl-nav">
+                        <li class><a href="#home">Home</a></li>
+                        <li><a href="#about">Demo</a></li>
+                        <li><a href="#topics">Download</a></li>
+                        <li><a href="#gallery">Game</a></li>
+                        <li><a href="#events">Game Demo</a></li>
+                        <li><a href="#">Feedback</a></li>
+                        <li><a href="#">Founder</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
 
-	<!-- #header -->
-	<div id="section-top" class="zozo-top-anchor"></div>
-	<div style="padding-top: 10px;padding-bottom:10px;">
-		<center>
-			<h2>Hands Free Visual Magnification Powered by the Human Mind</h2>
-		</center>
-	</div>
-	<div class="slider-section carousel-slider">
-		<div id="zozo-owl-carousel-slider" class="zozo-owl-carousel carousel-home-slider container owl-carousel owl-theme" data-singleitem="true" data-pagination="true" data-autoplay="true" style="opacity: 1; display: block;">
-			<div class="owl-wrapper-outer">
-				<div class="owl-wrapper" style="width: 5640px; left:0px; display: block; transition: all 1000ms ease 0s; transform: translated3d(-1880px,0px, 0px);">
-					<div class="owl-item" style="width: 940px;">
-						<div class="item">
-							<div class="owl-slide-item1 zozo-owl-align-left">
-								<div class="item-image col-sm-6">
-									<img title="We use Google Glass" src="img/google-glass-hero.png" alt="We use Google Glass">
-								</div>
-								<div class="item-content col-sm-6">
-									<h3 class="carousel-title">We use Google Glass</h3>
-									<div class="carousel-desc">For camera and zoom-in</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="owl-item" style="width: 940px;">
-						<div class="item">
-							<div class="owl-slide-item2 zozo-owl-align-right">
-								<div class="item-image col-sm-6 pull-right">
-									<img title="<strong>Neurosky EEG headset" src="img/mindwavedevice1.png" alt="<strong>Neurosky EEG headset">
-								</div>
-								<div class="item-content col-sm-6">
-									<h3 class="carousel-title">
-										<strong>Neurosky EEG headset</strong>
-									</h3>
-									<div class="carousel-desc">For reading brain waves</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="owl-item" style="width: 940px;">
-						<div class="item">
-							<div class="owl-slide-item3 zozo-owl-align-left">
-								<div class="item-image col-sm-6">
-									<img title="Google Glass + Neurosky EEG Headset" src="img/ZUBY.png" alt="Google Glass + Neurosky EGG Headset">
-								</div>
-								<div class="item-content col-sm-6">
-									<h3 class="carousel-title">Google Glass + Neurosky EEG Headset</h3>
-									<div class="carousel-desc">
-										Wearing Google Glass, And Neurosky EEG headset, you can zoom in an object and see better by simply thinking
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="owl-controls clickable">
-				<div class="owl-pagination">
-					<div class="owl-page active">
-						<span class></span>
-					</div>
-					<div class="owl-page">
-						<span class></span>
-					</div>
-					<div class="owl-page">
-						<span class></span>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Main Section -->
-	<div id="main" class="main-section">
-		<div id="single-sidebar-container" class="single-sidebar-container">
-			<div class="zozo-row">
-				<div id="primary" class="content-area">
-					<div id="content" class="site-content">
-						<div id="section-home-parallax-slider" class="page-id-361 page-home-parallax-slider fullwidth-section normall-background">
-							<div id="page-home-parallax-slider" class="parallax-page-inner">
-								<div class="entry-content parallax-content"></div>
-							</div>
-						</div>
-						<div id="section-about-us" class="page-id-346 page-about-us fullwidth-section nornmal-background">
-							<div id="page-about-us" class="parallax-page-inner">
-								<div class="entry-content parallax-content">
-									<div class="container section-header">
-										<h2 class="section-title animated fadeIn visible" data-animation="fadeIn" data-animation-delay="500" style="color: #ffffff;">Demo</h2>
-										<div class="devider">
-											<div data-animation-delay="1000" data-animation="zoomIn" class="devider-line-h devider-line-h-dark-blue animated zoomIn visible" style="background-color: #142638;">
-												<div data-animation-delay="700" data-animation="zoomIn" class="devider-round-out devider-round-out-dark-blue animated zoomIn visible" style=" border-color: #142638; background-color: #2d3e50;">
-													<div class="devider-round-in devider-round-in-dark-blue" style="background-color: #142638;"></div>
-												</div>
-											</div>
-										</div>
-										<p class="section-sub-title animated fadeIn visible" data-animation="fadeIn" data-animation-delay="500" style="color:#ffffff;">
-											"Wearing Google Glass, Neurosky EEG headset, you can zoom in on objects and see better by simply thinking"
-										</p>
-									</div>
-									<p>&nbsp;</p>
-									<p></p>
-									<center>
-										<div class="youtube-shortcode">
-											<div class="youtube-inner" style="max-width: 700px; max-height:350px">
-												<iframe width="700" height="350" src="https://i.ytimg.com/vi/LsEp3f6MA_g/maxresdefault.jpg"></iframe>
-											</div>
-										</div>
-									</center>
-								</div>
-							</div>
-						</div>
-						<div id="section-download" class="page-id-499 page-download fullwidth-section normal-background">
-							<div id="page-download" class="parallax-page-inner">
-								<div class="entry-content parallax-content">
-									<p style="text-align: center;">
-										<span class="gmw_"></span>
-									</p>
-									<div class="container section-header">
-										<h2 class="section-title text-center">Download the Think and Zoom™ Google Glass App</h2>
-										<div class="devider">
-											<div data-animation-delay="1000" data-animation="zoomIn" class="devider-line-h devider-line-h-dark-blue animated zoomIn visible"></div>
-											<div data-animation-delay="700" data-animation="zoomIn" class="devider-round-out devider-round-out-dark-blue animated zoomIn visible">
-												<div class="devider-round-in devider-round-in-dark-blue"></div>
-											</div>
-										</div>
-									</div>
-									<p></p>
-									<p style="text-align: center;">
-										<a class="zozo-button-1 btn-primary btn btn-lg" href="http://thinkandzoom.com/app-tz/thinkzoom-2.apk" target="_blank">
-											<i class="fa fa-download">Download the App Here</i>
-										</a>
-									</p>
-									<p style="text-align: center;">
-										<a class="zozo-button-2 btn-danger btn btn-lg" href="http://www.googleglassfans.com/archives/3203/install-use-chromeadb-sideload-apps-onto-google-glass" target="_blank">
-											<i class="fa fa-book">Instructions to Install</i>
-										</a>
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	
+    <!-- Middle Text -->
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="middle-text">
+                    <center><h2>Hands Free Visual Magnification Powered by the Human Mind</h2></center>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Carousel Lider -->
 
 
 
+
+
+
+    <!-- Demo -->
+    <div class="container-fluid demo-cover">
+        <div class="container page-demo">
+            <div class="row">
+                <section class="page-section demo-section">
+                    <div class="demo-title header-wrapper">
+                        <h2>Demo</h2>
+                        <div class="devider">
+                            <div data-animation-delay="1000" data-animation="zoomIn" class="devider-line-h devider-line-h-dark-blue animated zoomIn visible" style="background-color: #142638;"></div>
+                            <div data-animation-delay="700" data-animation="zoomIn" class="devider-round-out-dark-blue animated zoomIn visible" style="border-color: #142638; background-color: #2d3e50;"></div>
+                        </div>
+                    </div>
+                    <div class="container pg-title">
+                        <div class="demo-paragraph wrapper-paragraph">
+                            <p>Wearing Google Glass, And Neurosky EEG headset, you can zoom in on objects and <br>see better by simply thinking</p>
+                        </div>
+                    </div>
+                    <div class="youtube-session ">
+                        <div class="container video-session" style="text-align: center;">
+                            <div class="youtube-inner">
+                                <iframe width="700" height="350" src="https://www.youtube.com/embed/PENVNXbzdek" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <!-- Gallery -->
+    <div class="container-fluid gallery-cover" style="background-color: #eee;">
+        <div class="container-fluid pg-gallery">
+            <div class="row">
+                <section class="gallery-section">
+                    <div class="gallery h1-gallery-title">
+                        <h1>Gallery</h1>
+                        <div class="devider">
+                            <div data-animation-delay="1000" data-animation="zoomIn" class="devider-line-h devider-line-h-dark-blue animated zoomIn visible" style="background-color: #142638;"></div>
+                            <div data-animation-delay="700" data-animation="zoomIn" class="devider-round-out-dark-blue animated zoomIn visible" style="border-color: #142638; background-color: #2d3e50;"></div>
+                        </div>
+                        <div class="gallery-session gallery-button">
+                            <div class="boxes-images">
+                                <div class="col-md-3">
+                                    <div class="gallery-box">
+                                        <img src="img/TED.jpg">
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="gallery-box">
+                                        <img src="img/Ray.JPG">
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="gallery-box">
+                                        <img src="img/Innovator.JPG">
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="gallery-box">
+                                        <img src="img/City.jpg">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="boxes-images">
+                                <div class="col-md-3">
+                                    <div class="gallery-box">
+                                        <img src="img/">
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="gallery-box">
+                                        <img src="img/">
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="gallery-box">
+                                        <img src="img/">
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="gallery-box">
+                                        <img src="img/">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <!-- Game -->
+    <div class="container-fluid game-cover" style="background-color: #FFA202">
+        <div class="container pg-game">
+            <div class="row">
+                <section class="game-section">
+                    <div class="game h1-game-title">
+                        <h1>Kenti™ Game</h1>
+                        <div class="devider">
+                            <div data-animation-delay="1000" data-animation="zoomIn" class="devider-line-h devider-line-h-dark-blue animated zoomIn visible" style="background-color: #142638;"></div>
+                            <div data-animation-delay="700" data-animation="zoomIn" class="devider-round-out-dark-blue animated zoomIn visible" style="border-color: #142638; background-color: #2d3e50;"></div>
+                        </div>
+                    </div>
+                    <div class="container split-section">
+                        <div class="col-md-6">
+                            <div class="bird-phone angry-bird">
+                                <img src="img/iphone.png">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="bird-list angry-list">
+                                <ul>
+                                    <li>Full name: "Ene-ken-ti-Oba"</li>
+                                    <li>Name Origin : a bird from Onitsha, Anambra state, Nigeria</li>
+                                    <li>Game Designer: <a href="https://wwww.zubyonwuta.com" style="text-decoration: none; color: red;">Zuby Onwuta</a></li>
+                                    <li>Name Provided by : Zome Onabamiro</li>
+                                    <li>Language : Swift</li>
+                                </ul>
+                                <p>
+                                    Kenti an IOS single player game, designed and developed in under 3 days,<br> is a winner of the Apple WorldWide Developer Conference<br> 2015 Minority Scholarship.<br> The Objective of the game is to free "Kenti", a bird trapped in a <br>cage so she can join her friends. The game is played in two modes
+                                    <br>
+                                    A)Hands on with double finger tap
+                                    <br>
+                                    B)Hands free with an EEG reader such as Neurosky Mobile headset.
+                                    <br>
+                                    The game is part of a larger project aimed at using games to<br> conduct a research on the "Sustained use of EEG in daily life"<br> Work is in progress to develop an app for this research using IOS<br> ResearchkIt
+                                </p>
+                                <a href="" class="small-red-button btn btn-lg btn-danger">Available Soon on iOS</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <!-- Game Demo -->
+    <div class="container-fluid game-demo" style="background-color: #eee;">
+        <div class="container pg-game-demo">
+            <div class="row">
+                <section class="game-demo-pg">
+                    <div class="game-demo-title pg">
+                        <h1>Game Demo</h1>
+                        <div class="devider">
+                            <div data-animation-delay="1000" data-animation="zoomIn" class="devider-line-h devider-line-h-dark-blue animated zoomIn visible" style="background-color: #142638;"></div>
+                            <div data-animation-delay="700" data-animation="zoomIn" class="devider-round-out-dark-blue animated zoomIn visible" style="border-color: #142638; background-color: #2d3e50;"></div>
+                        </div>
+                        <div class="container game-demo-videos">
+                            <div class="col-md-6">
+                                <div class="youtube-game-demo-1">
+                                    <div class="youtube-inner">
+                                        <iframe width="500" height="400" src="https://www.youtube.com/embed/PENVNXbzdek" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="youtube-game-demo-2">
+                                    <div class="youtube-inner">
+                                        <iframe width="500" height="400" src="https://www.youtube.com/embed/PENVNXbzdek" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <!-- Feedback -->
+    <div class="container-fluid feedback-pg" style="background-color: #eee;">
+        <div class="container pg-feedback">
+            <div class="row">
+                <section class="feedback-pg">
+                    <div class="feedback feedback-title">
+                        <h1>Thanks for visiting</h1>
+                        <div class="devider">
+                            <div data-animation-delay="1000" data-animation="zoomIn" class="devider-line-h devider-line-h-dark-blue animated zoomIn visible" style="background-color: #142638;"></div>
+                            <div data-animation-delay="700" data-animation="zoomIn" class="devider-round-out-dark-blue animated zoomIn visible" style="border-color: #142638; background-color: #2d3e50;"></div>
+                        </div>
+                        <div class="feedback-paragraph paragraph-title">
+                            <p>Will you spare us another minute of your time?</p>
+                        </div>
+                        <div class="contact-feedback th-zuby">
+                            <a href="" class="btn btn-default btn-lg">CONTACT ME</a>
+                        </div>
+                    </div>
+                </section>
+                <div class="founder-pg">
+                    <div class="founder founder-paragraph">
+                        <p>For more information about the founder of Think & Zoom</p>
+                    </div>
+                    <div class="founder-button">
+                        <a href="" class="btn btn-primary btn-lg">Visit Founder's Website</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SOCIAL-FOOTER -->
+    <div class="container-fluid container-footer">
+        <div class="container ft-footer">
+            <div class="row">
+
+            </div>
+        </div>
+    </div>
+    
+    <!-- BLUE-FOOTER -->
+    <div class="container-fluid container-blue">
+        <div class="container blu-footer">
+            <div class="row">
+                <div class="trade-mark">
+                    <ul>
+                        <li>Copyright 2019<a href="" style="color: #ffffff;">Think and Zoom.</a>All rights reserved</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script type="text/javascript"></script>
 
 </body>
 </html>
